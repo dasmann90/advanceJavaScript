@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+    //   class Person {
+    //       constructor(fname,lname){
+    //           this.fname = fname;
+    //           this.lname = lname
+    //       }
+
+    //       getFullName(){
+    //           return `My full name is ${this.fname} ${this.lname}`
+    //       }
+    //   }
+
+    //   const num = [1,3,3,3];
+
+
+        // constroctor funtion
+    //   function PersonName(fname,lname){
+    //      this.fname = fname;
+    //      this.lname = lname;
+
+
+    //      this.fullName =  function(){
+    //           return `My full name is ${this.fname} ${this.lname}`;
+    //       }
+    //   }
+
+
+    function Person(fname,lname){
+        this.fname = fname;
+        this.lname = lname;
+    }
+
+    Person.prototype.fullName = function(){
+        return `${fname} ${lname}`
+    }
+    </script>
+  </body>
+</html>
